@@ -12,7 +12,7 @@ print(string[-5:])
 print(string[::-1])
 
 """Concatenando strings"""
-print(string + " " + string2)
+print(string + " " + string2 + "oooooo")
 
 """tamanho da string"""
 print(len(string))
@@ -44,11 +44,14 @@ print(string.replace("o", "a", 2))
 
 
 #exercicio
-frase = 'No dia mais claro, na noite mais escura, nenhum mal escapará a minha visão! Que aqueles que adoram o poder do mal, temam o meu poder. A LUZ DO LANTERNA VERDE!'
+frase = 'Tudo o que você precisará quando o universo acabar é de uma toalha'
+
 print(len(frase))
 print(len(frase.split(" ")))
 
 for i in frase.replace(',', '').replace('!', '').split(" "):
-    if i in ['claro', 'escura', 'LANTERNA', 'VERDE']:
+    if i in ['precisará', 'universo', 'toalha']:
         print(i)
 
+print(frase.upper())
+print(frase.lower())
