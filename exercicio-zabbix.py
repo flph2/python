@@ -31,16 +31,6 @@ ret = zbx.maintenance.create(
 print(ret)
 
 
-
-
-
-
-
-from pyzabbix import ZabbixAPI
-
-zbx = ZabbixAPI('http://drone.rj2.alog.com.br/zabbix/')
-zbx.login('zabbix', 'zabbix')
-
 ret = zbx.hostgroup.create(
     name='Hostgroup do Marco - Oreia'
 )
