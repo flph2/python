@@ -1,6 +1,6 @@
 from pyzabbix import ZabbixAPI
 
-zbx = ZabbixAPI('http://drone.rj2.alog.com.br/zabbix/')
+zbx = ZabbixAPI('http://zabbix.example.com/zabbix/')
 zbx.login('zabbix', 'zabbix')
 #print(zbx.api_version())
 
